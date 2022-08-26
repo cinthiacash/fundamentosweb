@@ -1,0 +1,48 @@
+
+/*Estilos da página index.html*/
+.center {
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.p30 {
+    padding:30px;
+}
+#menu li {
+    display: inline;
+    padding: 15px;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#menu li a:hover {
+    color: rgb(214, 94, 238)
+
+}
+
+.tam-social {
+    width: 30px;
+    height: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+
+
+/*Estilos da página anime.html*/
