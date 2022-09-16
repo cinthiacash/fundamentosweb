@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,15 +21,18 @@
     <div class="container">
     <form>
     <label for="nome">Nome</label>
-    <input type="text" id="nome">
+    <input type="text" id="nome" onkeyup="validaNome()">
+    <div id="txtNome"></div>
 
     <label for="email">Email</label>
-    <input type="text" id="email">
+    <input type="email" id="email" onkeyup="validaEmail()">
+    <div id="txtEmail"></div>
 
     <label for="coment">Comentario</label>
-    <textarea name="coment" id="coment" cols="30" rows="10"></textarea>
+    <textarea name="coment" id="coment" cols="30" rows="10" onkeyup="validaComent()"></textarea>
+    <div id="txtComent"></div>
     
-    <button>ENVIAR</button>
+    <button onclick="enviar()">ENVIAR</button>
 </form>
 </div>
 <hr>
@@ -46,6 +49,9 @@
 </p>
 
 </footer>
+
+<script src="assets/img/js/script.js"></script>
+
 </div>
 </div>
     
